@@ -1,3 +1,15 @@
 .fondo1{
-	background-color: #3333;
+	background-color: #333333;
+}
+.letra{
+	color: #FFFFFF;
+	font-size: 26px;
+	font-family: Berlin Sans FB; 
+	text-align: center;
+}
+.borde{
+	border-right: solid white 1px;
+}
+.lugar{
+	padding: 75px;
 }
