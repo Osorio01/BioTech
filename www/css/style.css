@@ -48,3 +48,24 @@ canvas {
 	width: 320px;
 	height: 200px;
 }
+.centrado{
+	text-align: center;
+}
+.letra2{
+	color: #CCCCCC;
+	text-align: center;
+	font-size: 18px;
+	font-family: arial;
+	border: solid white 1.5px; 
+}
+.letra3{
+	color: #CCCCCC;
+	text-align: center;
+	font-size: 18px;
+	font-family: arial;
+	border-bottom: solid white 2px;
+	border-right: solid red 2px;
+}
+.borde3{
+	border-bottom: solid red 0.5px;
+}
