@@ -1,6 +1,25 @@
 angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope) {})
+.controller('DashCtrl', function($scope, Dash) {
+    angular.module('app', ['ionic'])
+.controller('homeCtrl', ['$scope', 
+function ($scope) {
+
+}])
+   
+.config(function($stateProvider, $urlRouterProvider) {
+
+  $stateProvider
+      .state('home', {
+    url: '/page1',
+    templateUrl: 'home.html',
+    controller: 'homeCtrl'
+  })
+$urlRouterProvider.otherwise('/page1')
+
+});
+
+})
 
 .controller('ChatsCtrl', function($scope, Chats) {
   /* co-created with Rémi -> https://github.com/strowbeary
