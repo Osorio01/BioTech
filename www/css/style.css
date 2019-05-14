@@ -25,13 +25,16 @@
 .color1{
 	color: #FFFFFF;
 }
+.borde{
+	border-bottom: solid red 1.5px;
+}
 canvas {
-	position: fixed;
+	position: center;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-background-color: #DABDD8;
+	background-color: #DABDD8;
 }
 body {
   margin: 0;
@@ -49,7 +52,12 @@ p {
 canvas {
   display: block;
   margin: 20px auto;
-  background: black url("http://api.thumbr.it/whitenoise-560x800.png?background=0f1517ff&noise=626262&density=67&opacity=15") repeat fixed center;
+  background: black url("https://www.desktop-background.com/download/540x960/2015/05/22/952353_dna-adn-hd-wallpapers-desktop-backgrounds-mobile-wallpapers_1920x1080_h.png")center;
+}
+@media screen and (max-width: 1000px){
+	.adnfont{
+		background: url("https://www.desktop-background.com/download/540x960/2015/05/22/952353_dna-adn-hd-wallpapers-desktop-backgrounds-mobile-wallpapers_1920x1080_h.png");
+	}
 }
 .estugar{
 	width: 320px;
@@ -149,6 +157,6 @@ table {
 	/* iPads (portrait and landscape) ----------- */
 	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 		body {
-			width: 495px;
+			width: 475px;
 		}
 	}
