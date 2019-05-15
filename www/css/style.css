@@ -66,6 +66,9 @@ canvas {
 .centrado{
 	text-align: center;
 }
+.izquierdo{
+	text-align: left;
+}
 table { 
 		width: 100%; 
 		border-collapse: collapse; 
