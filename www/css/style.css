@@ -16,7 +16,7 @@
 .letra3{
 	font-size: 18px;
 	font-family: Arial;
-	color: #000000;
+	color: #dedede;
 }
 .lugar{
 	padding: 15px;
@@ -72,16 +72,16 @@ table {
 	}
 	/* Zebra striping */
 	tr:nth-of-type(odd) { 
-		background: #eee; 
+		background: #a29f9f91; 
 	}
 	th { 
-		background: #333; 
+		background:; 
 		color: white; 
 		font-weight: bold; 
 	}
 	td, th { 
 		padding: 6px; 
-		border: 1px solid #ccc; 
+		border: solid red 1px; 
 		text-align: left; 
 	}
 
@@ -107,12 +107,12 @@ table {
 			left: -9999px;
 		}
 
-		tr { border: 1px solid #ccc; }
+		tr { border: solid red 1px; }
 
 		td {
 			/* Behave  like a "row" */
 			border: none;
-			border-bottom: 1px solid #eee;
+			border-bottom: solid red 1px;
 			position: relative;
 			padding-left: 50%;
 		}
@@ -132,16 +132,16 @@ table {
 		Label the data
 		*/
 		td:nth-of-type(1) { font-weight:bold;font-size:150%;margin-top:5px; }
-    td:nth-of-type(1):before { content: "First Name:"; }
-		td:nth-of-type(2):before { content: "Last Name:"; }
-		td:nth-of-type(3):before { content: "Job Title:"; }
-		td:nth-of-type(4):before { content: "Favorite Color:"; }
-		td:nth-of-type(5):before { content: "Wars of Trek?:"; }
-		td:nth-of-type(6):before { content: "Nick Name:"; }
-		td:nth-of-type(7):before { content: "Date of Birth:"; }
-		td:nth-of-type(8):before { content: "Dream Vacation City:"; }
-		td:nth-of-type(9):before { content: "GPA:"; }
-		td:nth-of-type(10):before { content: "Arbitrary Data:"; }
+    td:nth-of-type(1):before { content: ""; }
+		td:nth-of-type(2):before { content: ""; }
+		td:nth-of-type(3):before { content: ""; }
+		td:nth-of-type(4):before { content: ""; }
+		td:nth-of-type(5):before { content: ""; }
+		td:nth-of-type(6):before { content: ""; }
+		td:nth-of-type(7):before { content: ""; }
+		td:nth-of-type(8):before { content: ""; }
+		td:nth-of-type(9):before { content: ""; }
+		td:nth-of-type(10):before { content: ""; }
 	}
 
 	/* Smartphones (portrait and landscape) ----------- */
