@@ -28,13 +28,16 @@
 .borde{
 	border-bottom: solid red 1.5px;
 }
+.derecho{
+	text-align: right;
+}
 canvas {
 	position: center;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #DABDD8;
+	background-color: #ff2323;
 }
 body {
   margin: 0;
@@ -163,3 +166,8 @@ table {
 			width: 475px;
 		}
 	}
+.lugar1{
+	height: 270px;
+	width: 300px;
+	justify-content: center;
+}
