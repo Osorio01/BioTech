@@ -28,6 +28,13 @@
 .borde{
 	border-bottom: solid red 1.5px;
 }
+.borde1{
+	border: solid white 1.5px;
+}
+.container1{
+	background-color: #656;
+	height: 300px;
+}
 .derecho{
 	text-align: right;
 }
